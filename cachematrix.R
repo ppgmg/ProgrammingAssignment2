@@ -31,7 +31,6 @@ makeCacheMatrix <- function(x = matrix()) {
 
 }
 
-
 ## cacheSolve takes as input a matrix and returns the inverse of the matrix
 ## If the inverse has already been calculated and the matrix has not changed, 
 ## then the inverse is retrieved from the "cache": i.e. the value of invA outside of cacheSolve
